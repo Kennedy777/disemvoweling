@@ -6,8 +6,9 @@ $(document).ready(function() {
 
 
     var quoteOutput = quoteInput.replace( /[aeiou]/g, '_');
-    alert(quoteOutput);
+  
 
+    $("#spanId").append(quoteOutput);
     $("#puzzleResult").show();
 
     event.preventDefault();
